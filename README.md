@@ -1,1 +1,1 @@
-# java_collections
+# This repo is for java collections demo
