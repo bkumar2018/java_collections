@@ -42,12 +42,25 @@ public class ArrayListSample {
         furits.add("Apple");
         //Sort arraylist 
         Collections.sort(furits);
-        System.out.println("---After sorting--");
+        System.out.println("---After sorting --");
         //Using for-each loop
         for(String fruit: furits){
             System.out.println(fruit);
         }
-        
+
+        List<Integer> nums = new ArrayList<Integer>();
+        nums.add(21);
+        nums.add(23);
+        nums.add(1);
+        nums.add(4);
+
+        Collections.sort(nums);
+        System.out.println("---Sorting an Integers --");
+        //Using for-each loop
+        for(Integer num: nums){
+            System.out.println(num);
+        }
+
     }
     
 }
